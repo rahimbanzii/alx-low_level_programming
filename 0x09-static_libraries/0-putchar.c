@@ -2,7 +2,7 @@
 
 
 /**
- * _putchar -To  write the character c to stdout
+ * _putchar-To  write the character c to stdout
  * @c:Character to print
  * Return: On success 1.
  * On error,return -1, and errno is set appropriately.
