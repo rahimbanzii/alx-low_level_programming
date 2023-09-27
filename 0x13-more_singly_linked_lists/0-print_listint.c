@@ -2,18 +2,18 @@
 
 /**
  * printt_listint - prints elements of a linked list
- * @k: linked list listint_x to print
+ * @h: linked list listint_t to print
  * Return: no of nodes
  */
-size_t printt_listint(const listint_x *k)
+size_t print_listint(const listint_t *h)
 {
 	size_t num = 0;
 
-	while (k)
+	while (h)
 	{
-		printf("%d\n", k->n);
+		printf("%d\n", h->n);
 		num++;
-		k = k->next;
+		h = h->next;
 	}
 
 	return (num);
